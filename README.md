@@ -8,15 +8,15 @@ you can also build exe package to be more convenient.
 
 It is a port of [ShadowVPN](https://github.com/clowwindy/ShadowVPN) created by [@clowwindy](https://github.com/clowwindy)
 
-### Features
-===
+Features
+---
 
 * support [chnroutes](https://github.com/fivesheep/chnroutes)
 
 * Fast adding thousands of route tables
 
-### Usage
-===
+Usage
+---
 
 * Before running ShadowVPN, You need to install the TUN/TAP driver first:
 > + For [32-bit Windows](http://build.openvpn.net/downloads/releases/tap-windows-9.9.2_3.exe)
@@ -42,8 +42,8 @@ SET chnroutes="false"
 * You can also update the chnroutes file by editing .txt files.
 
 
-### License
-===
+License
+---
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
