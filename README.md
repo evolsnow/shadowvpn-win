@@ -22,7 +22,7 @@ Usage
 
 * After installation, rename the new interface  to 'Tun'
 
-* Download zip file and decompress
+* Download zip file of source code and decompress
 
 * Configure '[client.conf](https://github.com/evollost/shadowvpn-win/blob/master/client.conf)', for more information, look through the this file
 
