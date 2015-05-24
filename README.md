@@ -2,9 +2,7 @@ shadowvpn-win
 ===
 
 shadowvpn-win is a simple way to run shadowvpn in windows,
-
 you can also build exe package to be more convenient.
-
 
 It is a port of [ShadowVPN](https://github.com/clowwindy/ShadowVPN) created by [@clowwindy](https://github.com/clowwindy)
 
@@ -22,7 +20,7 @@ Usage
 > + For [32-bit Windows](http://build.openvpn.net/downloads/releases/tap-windows-9.9.2_3.exe)
 > + For [64-bit Windows](http://build.openvpn.net/downloads/releases/tap-windows-9.21.0.exe)
 
-* After installation, rename the new interface name to 'Tun'
+* After installation, rename the new interface  to 'Tun'
 
 * Download zip file and decompress
 
