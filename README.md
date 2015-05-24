@@ -17,28 +17,28 @@ It is a port of [ShadowVPN](https://github.com/clowwindy/ShadowVPN) created by [
 ### Usage
 =========
 
-* 1.Before running ShadowVPN, You need to install the TUN/TAP driver first:
+* Before running ShadowVPN, You need to install the TUN/TAP driver first:
 > + For [32-bit Windows](http://build.openvpn.net/downloads/releases/tap-windows-9.9.2_3.exe)
 > + For [64-bit Windows](http://build.openvpn.net/downloads/releases/tap-windows-9.21.0.exe)
 
-* 2.After installation, rename the new interface name to 'Tun'
+* After installation, rename the new interface name to 'Tun'
 
-* 3.Download zip file and decompress
+* Download zip file and decompress
 
-* 4.Configure '[client.conf](https://github.com/evollost/shadowvpn-win/blob/master/client.conf)', for more information, look through the this file
+* Configure '[client.conf](https://github.com/evollost/shadowvpn-win/blob/master/client.conf)', for more information, look through the this file
 
-* 5.Just double click '[start_vpn.bat](https://github.com/evollost/shadowvpn-win/blob/master/start_vpn.bat)' or run this in cmd:
+* Just double click '[start_vpn.bat](https://github.com/evollost/shadowvpn-win/blob/master/start_vpn.bat)' or run this in cmd:
 ```bash
 shadowvpn.exe -c client.conf
 ```
 
-* 6.By default shadowvpn runs in chnroutes mode,you can turn back to global mode 
+* By default shadowvpn runs in chnroutes mode,you can turn back to global mode 
 by editing '[client_up.bat](https://github.com/evollost/shadowvpn-win/blob/master/client_up.bat)':
 ```bash
 SET chnroutes="false"
 ```
 
-* 7.You can also update the chnroutes file by editing .txt files.
+* You can also update the chnroutes file by editing .txt files.
 
 
 ### License
