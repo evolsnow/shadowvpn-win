@@ -1,17 +1,17 @@
 shadowvpn-win
 ===
 
-shadowvpn-win is a simple way to run shadowvpn client in windows,
-you can also build exe package to be more convenient.
+[shadowvpn-win](https://github.com/evolsnow/shadowvpn-win) is a simple way to run shadowvpn client on windows,
+you can also build .exe package to be more convenient.
 
 It is a port of [ShadowVPN](https://github.com/clowwindy/ShadowVPN) created by [@clowwindy](https://github.com/clowwindy)
 
 Features
 ---
 
-* support [chnroutes](https://github.com/fivesheep/chnroutes)
+* Support [chnroutes](https://github.com/fivesheep/chnroutes) to split traffic
 
-* Fast adding thousands of route tables
+* Adding thousands of route tables only takes a few seconds
 
 Usage
 ---
