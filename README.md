@@ -1,7 +1,7 @@
 shadowvpn-win
 ===
 
-shadowvpn-win is a simple way to run shadowvpn in windows,
+shadowvpn-win is a simple way to run shadowvpn client in windows,
 you can also build exe package to be more convenient.
 
 It is a port of [ShadowVPN](https://github.com/clowwindy/ShadowVPN) created by [@clowwindy](https://github.com/clowwindy)
