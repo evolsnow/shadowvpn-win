@@ -25,15 +25,15 @@ It is a port of [ShadowVPN](https://github.com/clowwindy/ShadowVPN) created by [
 
 * 3.Download zip file and decompress
 
-* 4.Configure client.conf, for more information, look through the conf file
+* 4.Configure '[client.conf](https://github.com/evollost/shadowvpn-win/blob/master/client.conf)', for more information, look through the this file
 
-* 5.Just double click 'start_vpn.bat' or run this in cmd:
+* 5.Just double click '[start_vpn.bat](https://github.com/evollost/shadowvpn-win/blob/master/start_vpn.bat)' or run this in cmd:
 ```bash
 shadowvpn.exe -c client.conf
 ```
 
 * 6.By default shadowvpn runs in chnroutes mode,you can turn back to global mode 
-by editing 'client_up.bat':
+by editing '[client_up.bat](https://github.com/evollost/shadowvpn-win/blob/master/client_up.bat)':
 ```bash
 SET chnroutes="false"
 ```
