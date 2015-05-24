@@ -1,38 +1,36 @@
-# shadowvpn-win
-Shadowvpn for Windows
+shadowvpn-win
+=========
 
-=======================
-####Intro
----
-shadowvpn-win is a simple way to run shadowvpn in windows, you can also build exe package to be more convenient.
+shadowvpn-win is a simple way to run shadowvpn in windows, 
+you can also build exe package to be more convenient.
 
 It is a port of [ShadowVPN] created by [@clowwindy](https://github.com/clowwindy)
 
 #### Features
----
+----
 
 1. support [chnroutes] 
 2. Fast adding thousands of route tables
 
 #### Usage
----
-1.Before running ShadowVPN, You need to install the TUN/TAP driver first:
--For [32-bit Windows]
--For [64-bit Windows]
-2.After installation, rename the new interface name to 'Tun'
-3. Download zip file and decompress
-4. configure client.conf, for more information, look through the conf file
-5. Run this in cmd:
+----
+- 1.Before running ShadowVPN, You need to install the TUN/TAP driver first:
+- - For [32-bit Windows]
+- - For [64-bit Windows]
+- 2.After installation, rename the new interface name to 'Tun'
+- 3. Download zip file and decompress
+- 4. configure client.conf, for more information, look through the conf file
+- 5. Run this in cmd:
 shadowvpn.exe -c client.conf
 or just double click 'start_vpn.bat'
-4. By default shadowvpn runs in chnroutes mode,you can turn back to global mode 
+- 4. By default shadowvpn runs in chnroutes mode,you can turn back to global mode 
 by editing client_up.bat:
 SET chnroutes="false"
-5. You can also update the chnroutes file by editing .txt files.
+- 5. You can also update the chnroutes file by editing .txt files.
 
 
 #### License
----
+----
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
